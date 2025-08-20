@@ -1,0 +1,20 @@
+# .streamlit/config.toml
+# Mirakl Product Status Checker — thème Streamlit
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+#headless = true
+#runOnSave = true
+
+[theme]
+base = "light"
+primaryColor = "#0B1F5B"              # Bleu Mirakl profond (approx. logo)
+backgroundColor = "#FFFFFF"           # Fond principal clair
+secondaryBackgroundColor = "#F4F6FA"  # Panneaux/cartes
+textColor = "#0F172A"                 # Bleu-gris très sombre (lisibilité)
+font = "sans serif"
